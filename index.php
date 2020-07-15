@@ -3,11 +3,35 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Google</title>
+    <title>Google Policy</title>
+    <link rel="stylesheet" href="style.css">
+
   </head>
   <body>
     <!-- HEADER -->
     <header>
+      <!-- Logo e titolo -->
+      <div class="logo_title">
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_74x24dp.png" alt="google_logo">
+        <h1>Privacy e termini</h1>
+      </div>
+      <!-- Menu navigazione -->
+      <nav>
+        <!-- Left -->
+        <ul>
+          <li>Introduzione</li>
+          <li>Norme sulla privacy</li>
+          <li>Termini di servizio</li>
+          <li>Tecnologie</li>
+          <li>Domande frequenti</li>
+        </ul>
+        <!-- Right -->
+        <div class="user">
+          <span>user@gmail.com</span>
+        </div>
+
+      </nav>
+
 
     </header>
     <!-- FINE HEADER -->
@@ -51,7 +75,7 @@
       <?php foreach ($faq as $item) {  ?>
 
         <!-- Creo un contenitore html dove saranno inseriti gli elementi -->
-        <div class="">
+        <div class="container">
           <ul>
 
             <!-- Lista per ogni singolo elemento -->
